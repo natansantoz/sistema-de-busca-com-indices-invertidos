@@ -15,7 +15,13 @@
 
 
 
-Trabalho prático da Prática 5 da disciplina Organização e Sistemas de Arquivos, com o objetivo de implementar um sistema eficiente de busca por palavras-chave em títulos de livros armazenados em arquivos binários, utilizando índices invertidos.
+Implementação da Prática 5 da disciplina Organização e Sistemas de Arquivos, cujo objetivo é a criação de um sistema eficiente para a busca de títulos de livros em arquivos binários, por meio da utilização de índices invertidos para consultas por palavras-chave.
+
+<p align="center">
+  <a href="https://github.com/natansantoz/Atividade-Pratica-5-OSA/blob/main/Pratica-5/Relatorio%20-%20Pratica5.pdf">
+    Relatório de Desenvolvimento
+  </a>
+</p>
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#table-of-contents)
 
@@ -31,7 +37,11 @@ O sistema foi testado com diferentes tamanhos de arquivo para validar sua efici�
 | 103.064   | 1921ms            |  104ms            |   ~0ms            |
 
 
+
+
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#table-of-contents)
+
+
 
 ### Fluxo de Processamento e Busca
 
