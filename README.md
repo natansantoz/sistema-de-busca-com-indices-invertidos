@@ -44,7 +44,7 @@ O sistema foi testado com diferentes tamanhos de arquivo para validar sua efici�
   #### 3. Persistência dos Índices
   Após o processamento completo do CSV, ambos os índices são persistidos em arquivos: o índice primário é salvo através de percurso em largura da árvore binária, enquanto o índice invertido é serializado com formato `[tamanho]||[palavra]||[ID1,ID2,...]`, utilizando registros de tamanho variável com descritores e delimitadores "||".
 
-  #### 4. Consulta e Busca
+  #### 4. Busca por Palavras-chave
   O sistema realiza um pré-processamento na entrada do usuário, consulta o índice invertido para cada palavra (O(1) amortizado), calcula a interseção dos conjuntos de IDs resultantes e recupera os registros através do índice primário.
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#table-of-contents)
