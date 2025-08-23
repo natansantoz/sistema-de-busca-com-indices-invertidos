@@ -9,7 +9,7 @@
 
 <p align="center">
   <a target="_blank" rel="noopener noreferrer" href="#">
-      <img src="gif-pratica5.gif" width="900" style="max-width: 100%;">
+      <img src="gif-p5.gif" width="900" style="max-width: 100%;">
   </a>
 </p>
 
