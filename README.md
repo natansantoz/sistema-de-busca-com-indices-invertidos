@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a target="_blank" rel="noopener noreferrer" href="#">
+  <a target="_blank" rel="noopener noreferrer" href="https://github.com/natansantoz/Atividade-Pratica-5-OSA/blob/main/gif-p5.gif">
       <img src="gif-p5.gif" width="900" style="max-width: 100%;">
   </a>
 </p>
