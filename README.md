@@ -49,7 +49,7 @@ O sistema foi testado com diferentes tamanhos de arquivo para validar sua efici�
   Leitura sequencial do CSV com conversão simultânea para registros binários de tamanho variável, utilizando descritores de tamanho e delimitadores de campo.
 
   #### 2. Construção dos Índices
-  Durante a escrita dos registros, dois índices são construídos em memória: índice primário (árvore binária mapeando ID → offset) e índice invertido (mapa não ordenado mapeando palavra → conjunto de IDs), com remoção automática de stop words e pontuações.
+  Durante a escrita dos registros, dois índices são construídos em memória: índice primário (árvore binária mapeando ID → offset) e índice invertido (hashmap mapeando palavra → conjunto de IDs), com remoção automática de stop words e pontuações.
 
   #### 3. Persistência dos Índices
   Após o processamento completo do CSV, ambos os índices são persistidos em arquivos: o índice primário é salvo através de percurso em largura da árvore binária, enquanto o índice invertido é serializado com formato `[tamanho]||[palavra]||[ID1,ID2,...]`, utilizando registros de tamanho variável com descritores e delimitadores "||".
