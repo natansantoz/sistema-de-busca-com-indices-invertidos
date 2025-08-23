@@ -30,13 +30,11 @@ Implementação da Prática 5 da disciplina Organização e Sistemas de Arquivos
 O sistema foi testado com diferentes tamanhos de arquivo para validar sua eficiência:
 
 | Nº Registros | Leitura do CSV e Criação de Índices | Tempo Busca por Palavra | Tempo Busca por Registro Específico |
-|-----------|-------------------|-------------------|------------------|
-| 1.000     | 16ms              |  1ms              |   1ms            |
-| 10.000    | 163ms             |  12ms             |   ~0ms            |
-| 50.000    | 869ms             |  47ms             |   ~0ms            |
-| 103.064   | 1921ms            |  104ms            |   ~0ms            |
-
-
+|:------------:|:-----------------------------------:|:-----------------------:|:----------------------------------:|
+|    1.000     |                16 ms                |          1 ms           |                1 ms                |
+|    10.000    |                163 ms               |          12 ms          |               ~0 ms                |
+|    50.000    |                869 ms               |          47 ms          |               ~0 ms                |
+|   103.064    |               1921 ms               |          104 ms         |               ~0 ms                |
 
 
 [![-----------------------------------------------------](https://raw.githubusercontent.com/andreasbm/readme/master/assets/lines/aqua.png)](#table-of-contents)
