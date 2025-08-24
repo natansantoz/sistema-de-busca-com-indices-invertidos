@@ -80,7 +80,7 @@ O sistema foi testado com diferentes tamanhos de arquivo para validar sua efici�
 
 2. **Navegue até o diretório do projeto:**
     ```sh
-    cd Atividade-Pratica-5-OSA/Pratica-5/
+    cd sistema-de-busca-com-indices-invertidos
     ```
 
 ### Execução
