@@ -75,7 +75,7 @@ O sistema foi testado com diferentes tamanhos de arquivo para validar sua efici�
 
 1. **Clone o repositório:**
     ```bash
-    git clone https://github.com/natansantoz/Atividade-Pratica-5-OSA.git
+    git clone https://github.com/natansantoz/sistema-de-busca-com-indices-invertidos.git
     ```
 
 2. **Navegue até o diretório do projeto:**
